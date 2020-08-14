@@ -26,7 +26,7 @@ Si il n'existe pas, exécutez cette commande
 cp ./config/i3wm/i3.desktop /usr/share/xsessions/
 ```
 
-Modifiez le fichier i3/config en fonction de votre configuration vidéo. Pour connaitre le nom de vos sorties vidéos, exécutez `xrandr`. Cet outil vous permet aussi de changer la disposition de vos écrans.
+Modifiez le fichier i3/config en fonction de votre configuration vidéo (plus spécifiquement les variables $primaryMonitor et $secondaryMonitor). Pour connaitre le nom de vos sorties vidéos, exécutez `xrandr`. Cet outil vous permet aussi de changer la disposition de vos écrans.
 
 ### **Rofi**
 ```bash
