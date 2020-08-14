@@ -1,12 +1,12 @@
 # Environnement de bureau
 
 ## Screenshots
-
+![Image of the ui](./screens/ui.png)
 
 
 ## Installation
 
-### i3wm-gaps
+### **i3wm-gaps**
 ```bash
 # Ajout du PPA
 sudo add-apt-repository ppa:kgilmer/speed-ricer
@@ -28,7 +28,7 @@ cp ./config/i3wm/i3.desktop /usr/share/xsessions/
 
 Modifiez le fichier i3/config en fonction de votre configuration vidéo. Pour connaitre le nom de vos sorties vidéos, exécutez `xrandr`. Cet outil vous permet aussi de changer la disposition de vos écrans.
 
-### Rofi
+### **Rofi**
 ```bash
 sudo apt install rofi
 
@@ -39,7 +39,7 @@ cp ./configs/rofi/slate.rasi /usr/share/rofi/themes
 cat ./configs/rofi/config > ~/.config/rofi/config
 ```
 
-### Polybar
+### **Polybar**
 ```bash
 sudo apt install fonts-font-awesome
 
@@ -47,7 +47,7 @@ sudo apt install fonts-font-awesome
 cat ./configs/polybar/config > ~/.config/polybar/config
 ```
 
-### LightDM
+### **LightDM**
 ```bash
 # Installation de lightdm
 sudo apt install lightdm
@@ -66,7 +66,7 @@ Pour modifier l'environnement de bureau par défaut, vous devrez changer la vale
 user-session=i3
 ```
 
-### LightDM GTK+ Greeter
+### **LightDM GTK+ Greeter**
 ```bash
 # Ajout du PPA
 sudo add-apt-repository ppa:kalgasnik/ppa
@@ -76,18 +76,20 @@ sudo apt-get update
 sudo apt-get install lightdm-gtk-greeter-settings
 ```
 
-#### Configuration
-**Appearance**
+**Configuration**
+
+**Onglet Appearance** \
 Theme: Yaru-dark \
 Icons: Yaru 
 
 
-### LXAppearance
+### **LXAppearance**
 ```bash
 sudo apt install lxappearance
 ```
 
-#### Configuration
+**Configuration**
+
 Widgets: Yaru-dark \
 Icon Theme: Yaru \
 Mouse Cursor: Yaru
